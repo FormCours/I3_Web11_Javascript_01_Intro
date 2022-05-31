@@ -1,0 +1,10 @@
+const maVariable = 42;                  => Ok
+let test42 = 13 * 5;                    => Ok
+const 3fois9 = 27;                      => Non! Commence par un chiffre
+var total = 1337;                       => Ok, mais change le "var"
+const maVariable = 22 - 5;              => Non! "maVariable" existe déjà
+const @mail = 'z.vanderquack@test.be';  => Non! Contient un @
+const msg = Ceci est une message !;     => Non! Le message n'est pas correct
+const age = '25';                       => Ok, format a vérifier
+const resultat = 1 + 2 + '3' + 4;       => Ok, valeur de 334
+const la somme = 5 + 5 + 5;             => Non! Contient un espace!
