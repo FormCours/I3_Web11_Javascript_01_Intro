@@ -43,6 +43,9 @@ console.log(titlePage);
 
 // ### Modifier un element
 
+// - Le contenu html de la balise
+balise1.innerHTML = 'Modification via le JS';
+
 // - Le contenu texte de la balise
 balise1.innerText = 'Modification via le JS';
 
@@ -68,7 +71,7 @@ console.log(btn);
 //  « listener » : la fonction qui sera executé lors de l'event
 //                 celle-ci contient le code a executé
 // Note : on vera en detail les fonctions par la suite ;)
-btn.addEventListener('click', () => {
+btn.addEventListener('click', function() {
 
     // Code executer lors du click
     console.log('Click !!!');
